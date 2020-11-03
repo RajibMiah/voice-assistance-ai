@@ -1,10 +1,7 @@
-#Description
+# Description
 Speech recognition technology allows computers to take spoken
-audio, interpret it and generate text from it .we&#39;re going to build a
-Conversational Voice Controlled React News Application using Alan AI.
-Alan AI is a revolutionary speech recognition software that allows you
-to add voice capabilities to your applications. It allows you to control
-absolutely everything in the app using your voice
+audio, interpret it and generate text from it . Alan AI is a revolutionary speech recognition software that allows you
+to add voice capabilities to your applications. It allows you to control absolutely everything in the app using your voice
 
 # Getting Started with Create React App
 
