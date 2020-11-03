@@ -2,7 +2,8 @@
 Speech recognition technology allows computers to take spoken
 audio, interpret it and generate text from it . Alan AI is a revolutionary speech recognition software that allows you
 to add voice capabilities to your applications. It allows you to control absolutely everything in the app using your voice
-
+# Live demo
+Not availible now. wait few days thank you .
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
