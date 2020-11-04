@@ -1,25 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
+import React , {useState , useEffect} from 'react'
+import './App.css'
+import AlanBtn from '@alan-ai/alan-sdk-web'
+const alankey = 'e780f75dca382ea715024d1932783e5e2e956eca572e1d8b807a3e2338fdd0dc/stage'
+const App = () => {
+  useEffect(()=>{
+    AlanBtn({
+      key: alankey,
+      onCommand:(command)=>{
+         if(command === 'testcommand')
+         {
+           window.alert('this is test command')
+         }
+      }
+    })
+  })
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <h1 style = {{textAlign:'center'}}>Voice assistance news app</h1>
+      <h2 style = {{textAlign:'center'}}>say 'what is your name or what can i do here '</h2>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
