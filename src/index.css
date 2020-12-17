@@ -1,16 +1,16 @@
 #root, html, body {
-  height: 100vh;
+    height: 100vh;
 }
 
 body {
-  margin: 0;
-  background-color: whitesmoke;
+    margin: 0;
+    background-color: whitesmoke;
 }
 
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 html {
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }

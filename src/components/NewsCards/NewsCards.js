@@ -2,7 +2,7 @@ import React from 'react';
 import { Grid, Grow, Typography } from '@material-ui/core';
 
 import NewsCard from './NewsCard/NewsCard';
-import useStyles from './style';
+import useStyles from './styles.js';
 
 const infoCards = [
   { color: '#00838f', title: 'Latest News', text: 'Give me the latest news' },
